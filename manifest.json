@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Doc PiP Video (Practical)",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Move Video to Doc PiP"
+  }
+}
